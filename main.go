@@ -14,7 +14,7 @@ type User struct{
 }
 
 func main(){
-	fmt.Println("Go mysql sever")
+	fmt.Println("Go mysql ss")
 	db, err := sql.Open("mysql","root:mayank99@tcp(127.0.0.1:3306)/test")
 	if err!=nil{
 		panic(err.Error())
